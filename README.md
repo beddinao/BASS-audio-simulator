@@ -16,6 +16,10 @@
 
 ## Examples
 
-[![example](./example/pic.png)](./example/example_2.mov)
+ <video width="400" height="200" controls>
+  <source src="./example/example_2.mov" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
 
-[![example_2](./example/pic_2.png)](./example/example_1.mov)
+ <video width="400" height="200" src="./example/example_1.mov" controls>
+</video> 

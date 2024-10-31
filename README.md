@@ -16,5 +16,8 @@ controls audio playback and visualizes sound frequencies in real-time using the 
 
 ## Examples
 
-[![video_example_1](./example/pic.png)](./example/example_3.mov)
-[![video_example_2](./example/pic_2.png)](./example/example_4.mov)
+
+https://github.com/user-attachments/assets/587bf97e-7227-468a-ac14-d311db905e1d
+
+
+https://github.com/user-attachments/assets/1695423a-0181-438c-991b-18c09c17258b

@@ -16,6 +16,6 @@
 
 ## Examples
 
-[![example](./example/pic.png)](./example/example_2.mp4)
+[![example](./example/pic.png)](./example/example_2.mov)
 
-[![example](./example/example_1.mp4)](./example/example_1.mp4)
+[![example_2](./example/pic_2.png)](./example/example_1.mov)

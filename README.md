@@ -3,7 +3,7 @@
 
 # About
 
-controls audio playback and visualizes sound frequencies in real-time using the <a href="https://www.un4seen.com/">BASS</a> audio library and <a href="https://github.com/codam-coding-college/MLX42">MLX42</a> graphics library.
+Utilizes the <a href="https://www.un4seen.com/">BASS</a> audio library and <a href="https://github.com/codam-coding-college/MLX42">MLX42</a> graphics library for real-time audio playback with dynamic frequency visualization, transforming audio data (FFT) into a visual spectrum of frequency bands.
 
 ## Features
 - **Play/Pause Control:** Press `SPACE` to play or pause audio.

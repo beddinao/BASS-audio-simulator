@@ -3,7 +3,7 @@
 
 # About
 
-&ensp; controls audio playback and visualizes sound frequencies in real-time using the <a href="https://www.un4seen.com/">BASS</a> audio library and <a href="https://github.com/codam-coding-college/MLX42">MLX42</a> graphics library.
+controls audio playback and visualizes sound frequencies in real-time using the <a href="https://www.un4seen.com/">BASS</a> audio library and <a href="https://github.com/codam-coding-college/MLX42">MLX42</a> graphics library.
 
 ## Features
 - **Play/Pause Control:** Press `SPACE` to play or pause audio.
@@ -16,10 +16,5 @@
 
 ## Examples
 
- <video width="400" height="200" controls>
-  <source src="./example/example_2.mov" type="video/mp4">
-Your browser does not support the video tag.
-</video> 
-
- <video width="400" height="200" src="./example/example_1.mov" controls>
-</video> 
+[![video_example_1](./example/pic.png)](./example/example_3.mov)
+[![video_example_2](./example/pic_2.png)](./example/example_4.mov)

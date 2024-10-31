@@ -1,9 +1,21 @@
 # *`BASS-audio-simulator`*
 `DEMO`
 
-&ensp; audio visualization program utilizing the <a href="https://www.un4seen.com/">BASS</a> audio library and <a href="https://github.com/codam-coding-college/MLX42">MLX42</a> graphical library
+# About
 
+&ensp; controls audio playback and visualizes sound frequencies in real-time using the <a href="https://www.un4seen.com/">BASS</a> audio library and <a href="https://github.com/codam-coding-college/MLX42">MLX42</a> graphics library.
+
+## Features
+- **Play/Pause Control:** Press `SPACE` to play or pause audio.
+- **Seek Audio Position:** Use `LEFT` or `RIGHT` arrow keys to adjust the playback position.
+- **Color Customization:** Choose from predefined colors for the spectrum display.
+
+## Usage
 
 `./as [AUDIO_FILE] [RED/BLUE/GREY/PURPLE/WHITE/BROWN]`
 
-[![example](./example/pic.png)](./example/vid.mp4)
+## Examples
+
+[![example](./example/pic.png)](./example_2/vid.mp4)
+
+[![example](./example/pic.png)](./example_1/vid.mp4)

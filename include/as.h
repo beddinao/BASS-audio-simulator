@@ -4,8 +4,8 @@
 #include <fstream>
 
 #define	DPF		1
-#define	BANDS		256
-#define	HBANDS		128
+#define	BANDS		512
+#define	HBANDS		256
 #define	DWIDTH		1600
 #define	DHEIGHT		800
 #define	MAX_WIDTH		2500

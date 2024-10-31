@@ -15,7 +15,7 @@ Utilizes the <a href="https://www.un4seen.com/">BASS</a> audio library and <a hr
 `./as [AUDIO_FILE] [RED/BLUE/GREY/PURPLE/WHITE/BROWN]`
 
 ## Examples
-
+- videos may not work try left click and open video in new tab
 
 https://github.com/user-attachments/assets/cd8a7908-d055-43d1-8da4-562c2b214074
 

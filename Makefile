@@ -18,7 +18,7 @@ ifeq ($(UNAME), Darwin)
 	LDFLAGS += -lglfw -L $(shell brew --prefix glfw)/lib -framework Cocoa -framework IOKit $(BASS_DIR)/libbass.dylib
 	DYLIB = install_name_tool -change @rpath/libbass.dylib ./bass/libbass.dylib $(NAME)
 endif
-CFLAGS = -Iinclude -I./MLX42/include/MLX42 -I$(BASS_DIR)
+CFLAGS = -Iinclude -I./MLX42/include/MLX42 -I$(BASS_DIR) 
 
 all: mlx bass $(NAME)
 	$(DYLIB)
@@ -31,7 +31,7 @@ mlx:
 	@cmake --build ./MLX42/build -j16
 
 $(NAME): $(OBJ)
-	$(CC) -o $(NAME) $(OBJ) $(LDFLAGS)
+	$(CC) -o $(NAME) $(OBJ) $(LDFLAGS) -fsanitize=address -g
 
 build/%.o: src/%.cpp $(HR)
 	@mkdir -p $(dir $@)

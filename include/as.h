@@ -2,6 +2,7 @@
 #include "bass.h"
 #include <iostream>
 #include <fstream>
+#include <math.h>
 
 #define	DPF		1
 #define	BANDS		512

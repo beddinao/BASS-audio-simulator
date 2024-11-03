@@ -14,13 +14,15 @@ Utilizes the <a href="https://www.un4seen.com/">BASS</a> audio library and <a hr
 
 `./as [AUDIO_FILE] [RED/BLUE/GREY/PURPLE/WHITE/BROWN]`
 
+## Requirements
+- **`Linux or Macos`**
+- **`glfw`**
+- **`cmake`**
+- **`libgtk2.0-dev`**
+
 ## Examples
 - videos may not work try left click and open video in new tab
 
 https://github.com/user-attachments/assets/cd8a7908-d055-43d1-8da4-562c2b214074
 
-
-
-https://github.com/user-attachments/assets/587bf97e-7227-468a-ac14-d311db905e1d
-
-
+![brown](https://github.com/user-attachments/assets/33f19347-3cbf-41c8-b3ba-5238146b1cdb)

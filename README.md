@@ -16,8 +16,8 @@ Utilizes the <a href="https://www.un4seen.com/">BASS</a> audio library and <a hr
 
 ## Requirements
 - **`Linux or Macos`**
-- **`glfw`**
-- **`cmake`**
+- **`glfw (libglfw3-dev)`**
+- **`cmake >= 3.18`**
 - **`libgtk2.0-dev`**
 
 ## Examples

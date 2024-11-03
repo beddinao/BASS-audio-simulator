@@ -1,5 +1,5 @@
-#include "../lib/MLX42/include/MLX42/MLX42.h"
-#include "../lib/bass/bass.h"
+#include "MLX42.h"
+#include "bass.h"
 #include <iostream>
 #include <fstream>
 

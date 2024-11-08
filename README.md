@@ -1,3 +1,4 @@
+![brown](https://github.com/user-attachments/assets/33f19347-3cbf-41c8-b3ba-5238146b1cdb)
 # *`BASS-audio-simulator`*
 `DEMO`
 
@@ -20,9 +21,7 @@ Utilizes the <a href="https://www.un4seen.com/">BASS</a> audio library and <a hr
 - **`gtk (libgtk2.0-dev)`**
 - **`cmake >= 3.18`**
 
-## Examples
+## Example
 - videos may not work try left click and open video in new tab
 
 https://github.com/user-attachments/assets/cd8a7908-d055-43d1-8da4-562c2b214074
-
-![brown](https://github.com/user-attachments/assets/33f19347-3cbf-41c8-b3ba-5238146b1cdb)

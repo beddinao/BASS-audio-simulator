@@ -1,4 +1,4 @@
-CC = c++
+CC = g++
 SRC = $(wildcard src/*.cpp)
 HR = $(wildcard include/*.h)
 OBJ = $(patsubst src/%.cpp, build/%.o, $(SRC))
@@ -27,18 +27,19 @@ bass:
 	@cd $(BASS_DIR) && make 64bit
 
 mlx:
-	@cmake -B ./MLX42/build ./MLX42
+	@cmake -B ./MLX42/build ./MLX42 -D CMAKE_CXX_COMPILER="g++"
 	@cmake --build ./MLX42/build -j16
 
 $(NAME): $(OBJ)
-	$(CC) -o $(NAME) $(OBJ) $(LDFLAGS) -fsanitize=address -g
+	$(CC) -o $(NAME) $(OBJ) $(LDFLAGS) 
 
 build/%.o: src/%.cpp $(HR)
 	@mkdir -p $(dir $@)
 	$(CC) -c $< -o $@ $(CFLAGS)
 
 clean:
-	rm -rf build && rm -rf MLX42/build
+	rm -rf build
+	rm -rf MLX42/build
 	rm -rf $(BASS_DIR)/64bit
 
 fclean: clean
